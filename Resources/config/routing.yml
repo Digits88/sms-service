@@ -1,0 +1,3 @@
+nethesis_sms_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: NethesisSmsBundle:Default:index }
