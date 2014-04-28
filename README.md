@@ -13,7 +13,7 @@ The supported operators are:
 
 In addition it can be specified a custom url (for not supported operators).
 
-It supports also a Portech to send sms.
+It supports also Portech devices.
 
 
 # Usage
