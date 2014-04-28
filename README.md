@@ -13,7 +13,7 @@ The supported operators are:
 
 In addition it can be specified a custom url (for not supported operators).
 
-It supports also Portech devices.
+It also supports Portech devices.
 
 
 # Usage
