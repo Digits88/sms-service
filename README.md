@@ -35,3 +35,7 @@ try {
     ...
 }
 ```
+
+# Recommendations
+
+Most operators request the complete cellular number with prefix (e.g. +39 or 39 before the number).
