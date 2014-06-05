@@ -92,9 +92,9 @@ class SmsService
 
                 $url_list = parse_url($url);
 
-                $ret = SmsService::__send_rest($url_list['host'],
-                                                      $url_list['path'],
-                                                      $url_list['query']);
+                $ret = SmsService::__send_raw($url_list['host'],
+                                              $url_list['path'],
+                                              $url_list['query']);
 
                 break;
             case 'portech':
