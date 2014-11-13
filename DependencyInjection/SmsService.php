@@ -35,7 +35,7 @@ class SmsService
                 $fields = array('user' => $login,
                                 'pass' => $pass,
                                 'sender' => $caller,
-                                'rcpt' => $cell,
+                                'rcpt' => (strlen($cell) <= 10 ? '+39'. $cell : $cell),
                                 'data' => $msg,
                                 'qty' => 'h');
 
